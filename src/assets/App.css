@@ -1,0 +1,16 @@
+
+
+.conteudo {
+  display: flex;     
+  font-family: 'consolas', Arial, Helvetica, sans-serif;
+  margin: 15px;
+  border: 1px solid rgba(0,0,0, 0.2); 
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0,0,0, 0.9) 
+}
+
+.conteudo-principal { 
+background: rgb(249,249,249);
+background: linear-gradient(180deg, rgba(249,249,249,1) 51%, rgba(246,247,251,1) 84%);
+width: 70%
+}

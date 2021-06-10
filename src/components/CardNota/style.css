@@ -1,0 +1,42 @@
+.card-nota {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  box-shadow: 2px 0 10px rgba(128, 128, 128, 0.5);
+  padding: 16px;
+  animation: slidein 0.9s;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(-15px)
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+
+.card-nota_cabecalho {
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-nota_texto {
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+.card-nota_titulo {
+  font-size: 1.2em;
+  margin-right: 12px;
+}
+
+.card-nota_categoria {
+  font-size: 12px;
+}
